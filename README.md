@@ -17,8 +17,9 @@ Apoie nosso projeto no [Apoia-se](apoia.se/teomewhy)
 ## Fluxo de trabalho Git local
 
 01. git checkout -b <nova-branch>
-02. cria ou atualiza arquivos
+02. cria ou atualiza os arquivos
 03. git status
+04. git diff <nome-do-arquivo> ##pra ver as diferenças no terminal
 05. git add *arquivos*
 06. git status
 07. git commit -m "minha mensagem"
