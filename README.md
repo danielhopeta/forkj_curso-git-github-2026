@@ -8,7 +8,7 @@ meu nome é hopeta e vir pela su teta
 pelo q?
 hopeta
 
-Além do nosso YouTube, se ligue no nosso site e agenda para ficar por dentro de tudo que vai rolar em 2025.
+sai daqui youtube!!!!
 
 
 
