@@ -6,6 +6,7 @@ Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
 
 Aqui não é lugar pra PROPAGANDA, e sim apenas aprendizado gratuito!!!
 salve a pirataria #hopeta
+vamos add mais essa linha aqui e ver...
 
 Além do nosso YouTube, se ligue no nosso site e agenda para ficar por dentro de tudo que vai rolar em 2025.
 
