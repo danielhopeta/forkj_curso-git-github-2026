@@ -1,0 +1,61 @@
+git init . 		/cria uma pasta git e torna a pasta local um repositório
+git status 		/mostra os checkpoints (commits) e os arquivos que faltam salvar
+git add 		/add os arquivos desejados na versão (tu pode escolher/excluir)
+git reset nome_do_arq 	/ tira o aquivo do git add individualmente
+git add nome_* 		/ add todos que começam com o mesmo nome
+git add. 		/add todos os arquivos no diretório atual
+git commit -m "mensagem" /commita (salva) seu trabalho ate aqui
+git config --global user.email "seuemail" /vc ta apontando quem fez essa modificação
+nano nome_do_arquivo /editor de texto dentro do bash pra editar os dados de sua lista
+git log 		/mostra todos os saves
+git diff 		/mostra a diferença do estado atual em relação ao commit anterior
+.gitignore		/add um arquivo na arvore chamado ".gitignore" e dentro dele nomeie os arquivos que vc quer ignorar na pasta git OU colocar "*.pptx" ignora todos os arquivos com esse formato
+
+BRANCHS
+
+git branch 			/mostra em qual ramificação do projeto vc esta e quais existem
+git checkout -b nome_da_ramificação / vc sai do ramo principal MAIN e (o -b) cria e entra na sua branch (um ramo secundário por exemplo, os novos arquivos criados aqui não aparecem na branch anterior)
+git checkout nome_da_branch 	/vc entra na ramicação escolhida
+git merge nome_da_branch 	/ substituir arquivo ou mesclar, ajuntar as ramificações
+git branch -D nome_da_branch	 /deleta a branch, vc não pode estar nela pra apagar 
+
+
+CONFLITOS DE BRANCH 		/quando da 2 merges de comits diferentes NA MESMA LINHA
+
+em estado de MERGING basta vc "resolver o problema" diretamente no arquivo, salvar, add e commitar.
+
+git merge --abort 		/ para cancelar o ultimo merge em conflito e voltar pro estado anterior
+
+LINKANDO ONLINE COM GITHUB
+
+git remote add origin (nome do repositório no GitHub) / add o repositório da pasta e vincula la no GitHub
+
+git push origin main		/ manda as alterações pro remoto feito na main (push)
+git pull origin main		/recebe as alteraçãos para a origem (pull)
+
+git clone (nome-do-link-GitHub)
+
+git fetch #baixa as branch no VSCODE e atualiza a maquina local
+
+
+### FLUXO DO TRABALHO
+
+A) pwd  /mostra o diretório atual
+
+B) cd  Desktop/curso_git_2026/
+
+### SE FOR DAR FORK (puxar um diretório main e fazer uma branch para alterações)
+C) git clone (link-GitHub)
+
+D) git pull origin (nome-da-branch) #para garantir que vc esta atualizado e começar a trabalhar
+
+1. criar diretório do projeto
+2. iniciar o git dentro do diretório criado (git init .0
+3. editar ou criar arquivos
+4. git status
+4.1 git diff (nome-do-arquivo)
+5. git add <nome do aquivo>
+6. git status
+7. git commit -m "mensagem"
+8. git status
+9 volta para o passo 3
